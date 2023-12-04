@@ -2,11 +2,11 @@ def calculate_scratchcard_points(cards):
     total_points = 0
 
     for card in cards:
-        winning_numbers, your_numbers = card.split('|')
-        winning_numbers = set(map(int, winning_numbers.split()))
-        your_numbers = set(map(int, your_numbers.split()))
+        winning_numbers, your_numbers = card.split('|') # Split the card into winning and your numbers
+        winning_numbers = set(map(int, winning_numbers.split())) # Convert the winning numbers to a set of integers
+        your_numbers = set(map(int, your_numbers.split())) # Convert your numbers to a set of integers
 
-        matches = winning_numbers.intersection(your_numbers)
+        matches = winning_numbers.intersection(your_numbers) # Find the matches between the two sets
         if matches:
             # Calculate the points for this card
             points = 1 << (len(matches) - 1)  # 2^(number of matches - 1)
