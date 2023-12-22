@@ -1,30 +1,60 @@
-def parser(chemin_du_fichier):
+def parser(file_path):
     """
-    Parse un fichier pour le problème Advent of Code.
+    Parse a file for the Advent of Code problem.
 
     Args:
-    chemin_du_fichier (str): Le chemin vers le fichier à parser.
+    file_path (str): The path to the file to parse.
 
     Returns:
-    tuple: Une chaîne de caractères représentant les instructions de navigation et un dictionnaire représentant le réseau de noeuds.
+    tuple: A string representing navigation instructions and a dictionary representing the node network.
     """
-    with open(chemin_du_fichier, 'r', encoding='utf-8') as fichier:
-        lignes = fichier.readlines()
+    with open(file_path, 'r', encoding='utf-8') as file:
+        lines = file.read().splitlines()
 
-    # Supposons que la première ligne contient les instructions de navigation
-    instructions_navigation = lignes[0].strip()
+    instructions = lines[0]
 
-    # Parse le réseau de noeuds
-    reseau_noeuds = {}
-    for ligne in lignes[1:]:
-        noeud, voisins = ligne.strip().split(' = ')
-        voisins = tuple(voisins.strip('()').split(', '))
-        reseau_noeuds[noeud] = voisins
+    node_network = {}
+    for line in lines[2:]:
+        if ' = ' in line:
+            node, neighbors = line.split(' = ')
+            neighbors = tuple(neighbors.strip('()').split(', '))
+            node_network[node] = neighbors
 
-    return instructions_navigation, reseau_noeuds
+    return instructions, node_network
 
-########################################################################################################################
-# main
+def navigate(instructions, network, start_node, end_node):
+    current_node = start_node
+    step_count = 0
+    index = 0
 
-chemin_du_fichier = "./day08.txt"
-instructions, reseau = parser(chemin_du_fichier)
+    # Optimiser en pré-calculant la longueur des instructions
+    instructions_length = len(instructions)
+
+    while current_node != end_node:
+        index %= instructions_length  # Utiliser l'opérateur modulo pour éviter l'indexation hors limites
+        instruction = instructions[index]
+
+        current_node = network[current_node][1] if instruction == "R" else network[current_node][0]
+
+        index += 1
+        step_count += 1
+        # print(current_node)  # Commenter pour améliorer les performances
+
+    return step_count
+
+
+# Main
+file_path0 = "./day08_1_test.txt"
+file_path1 = "./day08_1_test2.txt"
+file_path2 = "./day08.txt"
+instructions0, network0 = parser(file_path0)
+result0 = navigate(instructions0, network0, "AAA", "ZZZ")
+print("for test 1 : ",result0)
+
+instructions1, network1 = parser(file_path1)
+result1 = navigate(instructions1, network1, "AAA", "ZZZ")
+print("for test 2 : ",result1)
+
+instructions2, network2 = parser(file_path2)
+result = navigate(instructions2, network2, "AAA", "ZZZ")
+print("for real : ",result)
