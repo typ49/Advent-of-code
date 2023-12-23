@@ -1,0 +1,28 @@
+0 3 6 9 12 15 18
+3 3 3 3 3 3
+0 0 0 0
+
+1 3 6 10 15 21 28
+2 3 4 5  6  7
+1 1 1 1 1
+0 0 0
+
+10 13 16 21 30 45 68
+3  3  5  9  15 23
+0  2  4  6  8
+2  2  2  2
+0  0
+
+---
+
+il faut un parser de matrice
+
+il faut un programme pour trouver la prochaine liste
+
+il faut un programme qui vérifie qu'on atteint 0
+
+il faut un programme pour remonter les listes
+
+et un main pour additionner les nombres
+
+---

@@ -7,9 +7,12 @@
 
 ## progress
 
+☆ : one star won
+★ : two stars won
+
 |1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|★|★|★|★|☆|★|☆|☆||||||||||||||||||
+|★|★|★|★|☆|★|☆|☆|||||||||||★||||★|||
 
 ---
 
@@ -113,11 +116,11 @@
 >
 <!--  -->
 >
-> ***Day 9 :***
+> ***Day 9 : Mirage Maintenance***
 >
 >- **Partie 1**
 >>
->>
+>> trouver la suite logique d'une liste de nombre et additioner ce nombre avec d'autre nombre qui sont eux aussi des suite logique de liste
 >
 >- **Partie 2**
 >>
@@ -285,11 +288,11 @@
 >
 >- **Partie 1**
 >>
->>
+>> parcourir un labyrinthe et trouver le plus long chemin qui part du haut et va en bas du labyrinthe avec des pentes
 >
 >- **Partie 2**
 >>
->>
+>> la même choses mais les pentes sont concidérer comme des chemins normaux
 >
 <!--  -->
 >

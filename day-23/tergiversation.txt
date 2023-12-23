@@ -1,0 +1,28 @@
+le but de ce puzzle est de trouver le plus long chemin reliant le point A au point B
+
+il y a 4 symbole : . | # | v | >
+	- . : un chemin
+	- # : un arbre
+	- < : une pente vers la droite
+	- v : une pente vers le bas
+
+
+
+idée :
+		on crée un res = 0
+		
+		on part du point A et on crée une liste de toute les position ou on peut aller depuis ce point
+
+		on fait pareil avec les nouvelle positon et on incrémente res
+
+		une fois que toute les postion seront égale à celle du point B on termine
+
+		on retourne res
+
+
+fonction à faire :
+		start, finish = raceData(matrix) : retourne le point A et B
+
+		current_pos = nextStep(list_pos) : retourne toute les nouvelles position après avoir vérfié 1 étape de plis (ajoute des positon si besoin)
+
+		all_same_pose(current_pos) : retourne vraie si toute les position sont les même, faux sinon
