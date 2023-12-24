@@ -23,11 +23,11 @@
 >
 >- **Partie 1**
 >>
->>
+>> IDK
 >
 >- **Partie 2**
 >>
->>
+>> ./day1_2
 >>
 >
 <!--  -->
@@ -36,11 +36,11 @@
 >
 >- **Partie 1**
 >>
->>
+>> python3 day2.py
 >
 >- **Partie 2**
 >>
->>
+>> python3 day2_2.py
 >
 <!--  -->
 >
@@ -48,11 +48,11 @@
 >
 >- **Partie 1**
 >>
->>
+>> python3 day3.py
 >
 >- **Partie 2**
 >>
->>
+>> python3 day3_2.py
 >
 <!--  -->
 >
@@ -60,11 +60,11 @@
 >
 >- **Partie 1**
 >>
->>
+>> python3 day4.py
 >
 >- **Partie 2**
 >>
->>
+>> python3 day4_2.py
 >
 <!--  -->
 >
@@ -72,11 +72,11 @@
 >
 >- **Partie 1**
 >>
->>
+>> python3 day5.py
 >
 >- **Partie 2**
 >>
->>
+>> python3 day5_2.py
 >
 <!-- -->
 >
@@ -84,11 +84,11 @@
 >
 >- **Partie 1**
 >>
->>
+>> python3 day6.py
 >
 >- **Partie 2**
 >>
->>
+>> python3 day6_2.py
 >
 <!--  -->
 >
@@ -96,11 +96,11 @@
 >
 >- **Partie 1**
 >>
->>
+>> python3 day7.py
 >
 >- **Partie 2**
 >>
->>
+>> python3 day7_2.py
 >
 <!--  -->
 >
@@ -108,11 +108,11 @@
 >
 >- **Partie 1**
 >>
->>
+>> python3 day08_1.py
 >
 >- **Partie 2**
 >>
->>
+>> python3 day08_2.py < day08.txt
 >
 <!--  -->
 >
