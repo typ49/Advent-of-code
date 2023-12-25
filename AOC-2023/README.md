@@ -18,11 +18,11 @@
 >
 > ***Day 1 : Trebuchet?!***
 >
->- **Partie 1** : $
+>- **Partie 1** : $ python3 day1.py
 >>
 >>
 >
->- **Partie 2** : $ ./day1_2
+>- **Partie 2** : $ python3 day1_2.py
 >>
 >>
 >>
