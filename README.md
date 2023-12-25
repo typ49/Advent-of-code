@@ -12,7 +12,7 @@
 
 |1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|★|★|★|★|★|★|★|★|||||||||||★|★|★|★|★|★||
+|★|★|★|★|★|★|★|★|★||||||||||★|★|★|★|★|★|☆|
 
 ---
 
@@ -21,108 +21,108 @@
 >
 > ***Day 1 : Trebuchet?!***
 >
->- **Partie 1**
+>- **Partie 1** : $
 >>
->> IDK
+>>
 >
->- **Partie 2**
+>- **Partie 2** : $ ./day1_2
 >>
->> ./day1_2
+>>
 >>
 >
 <!--  -->
 >
 > ***Day 2 : Cube Conundrum***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day2.py
 >>
->> python3 day2.py
+>>
 >
->- **Partie 2**
+>- **Partie 2** : $ python3 day2_2.py
 >>
->> python3 day2_2.py
+>>
 >
 <!--  -->
 >
 > ***Day 3 : Gear Ratios***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day3.py
 >>
->> python3 day3.py
+>>
 >
->- **Partie 2**
+>- **Partie 2** : $ python3 day3_2.py
 >>
->> python3 day3_2.py
+>>
 >
 <!--  -->
 >
 > ***Day 4 : Scratchcards***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day4.py
 >>
->> python3 day4.py
+>>
 >
->- **Partie 2**
+>- **Partie 2** : $ python3 day4_2.py
 >>
->> python3 day4_2.py
+>>
 >
 <!--  -->
 >
 > ***Day 5 : If You Give A Seed A Fertilizer***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day5.py
 >>
->> python3 day5.py
+>>
 >
->- **Partie 2**
+>- **Partie 2** : $ python3 day5_2.py
 >>
->> python3 day5_2.py
+>>
 >
 <!-- -->
 >
 > ***Day 6 : Wait For It***
 >
->- **Partie 1**
+>- **Partie 1**: $ python3 day6.py
 >>
->> python3 day6.py
+>>
 >
->- **Partie 2**
+>- **Partie 2** : $ python3 day6_2.py
 >>
->> python3 day6_2.py
+>>
 >
 <!--  -->
 >
 > ***Day 7 : Camel Cards***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day7.py
 >>
->> python3 day7.py
+>>
 >
->- **Partie 2**
+>- **Partie 2** : $ python3 day7_2.py
 >>
->> python3 day7_2.py
+>>
 >
 <!--  -->
 >
 > ***Day 8 : Haunted Wasteland***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day8.py
 >>
->> python3 day08_1.py
+>>
 >
->- **Partie 2**
+>- **Partie 2** : $ python3 day8_2.py
 >>
->> python3 day08_2.py < day08.txt
+>>
 >
 <!--  -->
 >
 > ***Day 9 : Mirage Maintenance***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day9.py
 >>
 >>
 >
->- **Partie 2**
+>- **Partie 2** : $ python3 day9_2.py
 >>
 >>
 >
@@ -130,11 +130,11 @@
 >
 > ***Day 10 :***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day10.py
 >>
 >>
 >
->- **Partie 2**
+>- **Partie 2** : $ python3 day10_2.py
 >>
 >>
 >
@@ -310,11 +310,11 @@
 >
 > ***Day 25 :***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day25.py
 >>
 >>
 >
->- **Partie 2**
+>- **Partie 2** : $ lauch
 >>
->>
+>> end of the advent of code !
 >
