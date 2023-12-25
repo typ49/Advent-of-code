@@ -3,6 +3,7 @@ def day1p2(filepath):
     t = 0
     n = "one two three four five six seven eight nine".split()
     p = "(?=(" + "|".join(n) + "|\\d))"
+
     """
     La regex (?=(" + "|".join(n) + "|\\d)) est utilisée pour trouver tous les chiffres ou noms de chiffres dans une chaîne.
 
