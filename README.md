@@ -1,6 +1,7 @@
 # Advent of code
 
 ☆ : one star won
+
 ★ : two stars won
 
 ---
