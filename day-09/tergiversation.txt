@@ -15,14 +15,7 @@
 
 ---
 
-il faut un parser de matrice
-
-il faut un programme pour trouver la prochaine liste
-
-il faut un programme qui vérifie qu'on atteint 0
-
-il faut un programme pour remonter les listes
-
-et un main pour additionner les nombres
+on crée un programme qui fait une récursion tant que tous la liste n'est pas égale à zero
+la nouvelle liste est égale à x-y avec x = array[] et y = array[1:]
 
 ---
