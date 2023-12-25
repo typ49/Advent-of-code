@@ -44,17 +44,8 @@ def navigate(instructions, network, start_node, end_node):
 
 
 # Main
-file_path0 = "./day08_1_test.txt"
-file_path1 = "./day08_1_test2.txt"
-file_path2 = "./day08.txt"
-instructions0, network0 = parser(file_path0)
-result0 = navigate(instructions0, network0, "AAA", "ZZZ")
-print("for test 1 : ",result0)
+file_path = "./day08.txt"
 
-instructions1, network1 = parser(file_path1)
-result1 = navigate(instructions1, network1, "AAA", "ZZZ")
-print("for test 2 : ",result1)
-
-instructions2, network2 = parser(file_path2)
-result = navigate(instructions2, network2, "AAA", "ZZZ")
-print("for real : ",result)
+instructions, network = parser(file_path)
+result = navigate(instructions, network, "AAA", "ZZZ")
+print(result)
