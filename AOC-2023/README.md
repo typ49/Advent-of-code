@@ -2,14 +2,14 @@
 
 ---
 
-## progress
+## stars
 
 ☆ : one star won
 ★ : two stars won
 
 |1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|★|★|★|★|★|★|★|★|★|★|★||||||||★|★|★|★|★|★|☆|
+|★|★|★|★|★|★|★|★|★|★|★|★|||||★|★|★|★|★|★|★|★|☆|
 
 ---
 
@@ -209,43 +209,43 @@
 >
 <!--  -->
 >
-> ***Day 17 :***
+> ***Day 17 : Clumsy Crucible***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day17.py
 >>
 >>
 >
->- **Partie 2**
->>
->>
->
-<!--  -->
->
-> ***Day 18 :***
->
->- **Partie 1**
->>
->>
->
->- **Partie 2**
+>- **Partie 2** : $ python3 day17_2.py
 >>
 >>
 >
 <!--  -->
 >
-> ***Day 19 :***
+> ***Day 18 : Lavaduct Lagoon***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day18.py
 >>
 >>
 >
->- **Partie 2**
+>- **Partie 2** : $ python3 day18_2.py
 >>
 >>
 >
 <!--  -->
 >
-> ***Day 20 :***
+> ***Day 19 : Aplenty***
+>
+>- **Partie 1** : $ python3 day19.py
+>>
+>>
+>
+>- **Partie 2** : $ python3 day19_2.py
+>>
+>>
+>
+<!--  -->
+>
+> ***Day 20 : Pulse Propagation***
 >
 >- **Partie 1** : $ pthon3 day20.py
 >>
@@ -257,7 +257,7 @@
 >
 <!--  -->
 >
-> ***Day 21 :***
+> ***Day 21 : Step Counter***
 >
 >- **Partie 1** : $ pthon3 day21.py
 >>
@@ -269,7 +269,7 @@
 >
 <!--  -->
 >
-> ***Day 22 :***
+> ***Day 22 : Sand Slabs***
 >
 >- **Partie 1** : $ pthon3 day22.py
 >>
@@ -281,7 +281,7 @@
 >
 <!--  -->
 >
-> ***Day 23 :***
+> ***Day 23 : Long Walk***
 >
 >- **Partie 1** : $ pthon3 day23.py
 >>
@@ -293,7 +293,7 @@
 >
 <!--  -->
 >
-> ***Day 24 :***
+> ***Day 24 : Never Tell Me The Odds***
 >
 >- **Partie 1** : $ pthon3 day24.py
 >>
@@ -305,7 +305,7 @@
 >
 <!--  -->
 >
-> ***Day 25 :***
+> ***Day 25 : Snowverload***
 >
 >- **Partie 1** : $ python3 day25.py
 >>
