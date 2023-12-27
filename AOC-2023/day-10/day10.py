@@ -40,5 +40,5 @@ def day10(filepath):
     return (len(loop) // 2)
 
 # main
-filepath = "./day10.txt"
+filepath = "./input.txt"
 print(day10(filepath))

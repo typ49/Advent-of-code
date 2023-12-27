@@ -1,5 +1,3 @@
-# github/hyper-neutrino
-
 letter_map = {"T": "A", "J": ".", "Q": "C", "K": "D", "A": "E"}
 
 
@@ -39,18 +37,23 @@ def classify(hand):
 def strength(hand):
     return (classify(hand), [letter_map.get(card, card) for card in hand])
 
+def day7p2(filepath):
+    plays = []
+    f = open(filepath, 'r')
+    for line in f:
+        hand, bid = line.split()
+        plays.append((hand, int(bid)))
 
-plays = []
+    plays.sort(key=lambda play: strength(play[0]))
 
-for line in open(0):
-    hand, bid = line.split()
-    plays.append((hand, int(bid)))
+    total = 0
 
-plays.sort(key=lambda play: strength(play[0]))
+    for rank, (hand, bid) in enumerate(plays, 1):
+        total += rank * bid
 
-total = 0
+    return total
 
-for rank, (hand, bid) in enumerate(plays, 1):
-    total += rank * bid
-
-print(total)
+# main
+filepath = "./input.txt"
+if __name__ == '__main__':
+    print(day7p2(filepath))

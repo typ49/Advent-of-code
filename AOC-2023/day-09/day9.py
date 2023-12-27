@@ -1,5 +1,3 @@
-# github.com/hyper-neutrino
-
 def extrapolate(list):
     """
     find the next number in a sequence
@@ -20,7 +18,7 @@ def extrapolate(list):
     return list[-1] + diff
 
 total = 0
-with open("./day09.txt", 'r') as f:
+with open("./input.txt", 'r') as f:
     for line in f:
         nums = list(map(int, line.split()))
         total += extrapolate(nums)

@@ -44,7 +44,7 @@ def navigate(instructions, network, start_node, end_node):
 
 
 # Main
-file_path = "./day08.txt"
+file_path = "./input.txt"
 
 instructions, network = parser(file_path)
 result = navigate(instructions, network, "AAA", "ZZZ")

@@ -1,5 +1,12 @@
 # advent-of-code-2023
-
+>
+> people and link who helped me to finish this advent of code :
+>
+>- *Vital Faucheux*
+>- *Matthieu Bidault*
+>- [*Jonathan Paulson*](https://www.youtube.com/@jonathanpaulson5053)
+>- [*HyperNeutrino*](https://www.youtube.com/@hyper-neutrino)
+>
 ---
 
 ## stars
@@ -9,7 +16,7 @@
 
 |1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|★|★|★|★|★|★|★|★|★|★|★|★|★|☆|||★|★|★|★|★|★|★|★|☆|
+|★|★|★|★|★|★|★|★|★|★|★|★|★|★|★|★|★|★|★|★|★|★|★|★|★|
 
 ---
 
@@ -175,23 +182,23 @@
 >
 > ***Day 14 : Parabolic Reflector Dish***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day14.py
 >>
 >>
 >
->- **Partie 2**
+>- **Partie 2** : $ python3 day14_2.py
 >>
->>
+>> Usage d'une "throwaway variable". dans une boucle for l'underscore permet de simplement éxécuter la boucle sans ce soucié de l'itérateur.
 >
 <!--  -->
 >
 > ***Day 15 :***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day15.py
 >>
 >>
 >
->- **Partie 2**
+>- **Partie 2** : $ python3 day15_2.py
 >>
 >>
 >
@@ -199,11 +206,11 @@
 >
 > ***Day 16 :***
 >
->- **Partie 1**
+>- **Partie 1** : $ python3 day16.py
 >>
 >>
 >
->- **Partie 2**
+>- **Partie 2** : $ python3 day16_2.py
 >>
 >>
 >
@@ -247,11 +254,11 @@
 >
 > ***Day 20 : Pulse Propagation***
 >
->- **Partie 1** : $ pthon3 day20.py
+>- **Partie 1** : $ python3 day20.py
 >>
 >>
 >
->- **Partie 2** : $ pthon3 day20_2.py
+>- **Partie 2** : $ python3 day20_2.py
 >>
 >>
 >
@@ -259,11 +266,11 @@
 >
 > ***Day 21 : Step Counter***
 >
->- **Partie 1** : $ pthon3 day21.py
+>- **Partie 1** : $ python3 day21.py
 >>
 >>
 >
->- **Partie 2** : $ pthon3 day21_2.py
+>- **Partie 2** : $ python3 day21_2.py
 >>
 >>
 >
@@ -271,11 +278,11 @@
 >
 > ***Day 22 : Sand Slabs***
 >
->- **Partie 1** : $ pthon3 day22.py
+>- **Partie 1** : $ python3 day22.py
 >>
 >>
 >
->- **Partie 2** : $ pthon3 day22_2.py
+>- **Partie 2** : $ python3 day22_2.py
 >>
 >>
 >
@@ -283,11 +290,11 @@
 >
 > ***Day 23 : Long Walk***
 >
->- **Partie 1** : $ pthon3 day23.py
+>- **Partie 1** : $ python3 day23.py
 >>
 >>
 >
->- **Partie 2** : $ pthon3 day23_2.py
+>- **Partie 2** : $ python3 day23_2.py
 >>
 >>
 >
@@ -295,11 +302,11 @@
 >
 > ***Day 24 : Never Tell Me The Odds***
 >
->- **Partie 1** : $ pthon3 day24.py
+>- **Partie 1** : $ pypy3 day24.py
 >>
 >>
 >
->- **Partie 2** : $ pthon3 day24_2.py
+>- **Partie 2** : $ python3 day24_2.py
 >>
 >>
 >

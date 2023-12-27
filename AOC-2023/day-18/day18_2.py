@@ -1,5 +1,3 @@
-# github/hyper-neutrino
-
 def day18p2(filepath):
     points = [(0, 0)]
     dirs = {"U": (-1, 0), "D": (1, 0), "L": (0, -1), "R": (0, 1)}
@@ -22,5 +20,5 @@ def day18p2(filepath):
     return i + b
 
 # main
-filepath = "./day18.txt"
+filepath = "./input.txt"
 print(day18p2(filepath))

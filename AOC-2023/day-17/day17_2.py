@@ -1,5 +1,3 @@
-#github/hyper-neutrino
-
 from heapq import heappush, heappop
 
 def day17p2(filepath):
@@ -36,5 +34,5 @@ def day17p2(filepath):
                         heappush(pq, (hl + grid[nr][nc], nr, nc, ndr, ndc, 1))
 
 # main
-filepath = "./day17.txt"
+filepath = "./input.txt"
 print(day17p2(filepath))

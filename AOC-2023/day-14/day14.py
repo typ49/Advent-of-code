@@ -27,5 +27,5 @@ def day14(filepath):
     return total_score
 
 # main
-filepath = "./day14.txt"
+filepath = "./input.txt"
 print(day14(filepath))
