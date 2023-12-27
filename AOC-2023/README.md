@@ -207,6 +207,7 @@
 > - [Partie 2](./day-14/day14_2.py)
 >
 >>
+>> Usage d'une "throwaway variable". dans une boucle for l'underscore permet de simplement éxécuter la boucle sans ce soucié de l'itérateur.
 >
 <!--  -->
 >
