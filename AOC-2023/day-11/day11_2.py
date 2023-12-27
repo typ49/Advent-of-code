@@ -34,5 +34,5 @@ def day11_2(filepath):
     return total
 
 # main
-filepath = "./day11.txt"
+filepath = "./input.txt"
 print(day11_2(filepath))

@@ -17,7 +17,7 @@ def calculate_total_scratchcards_efficient(cards):
     return sum(card_copies)
 
 # Read the contents of the file
-file_path = './day4.txt'
+file_path = './input.txt'
 with open(file_path, 'r') as file:
     cards_data = file.readlines()
 

@@ -1,5 +1,3 @@
-# github/hyper-neutrino
-
 from math import gcd
 
 def day8p2(filepath):
@@ -47,5 +45,5 @@ def day8p2(filepath):
     return lcm
 
 # main
-filepath = "./day08.txt"
+filepath = "./input.txt"
 print(day8p2(filepath))

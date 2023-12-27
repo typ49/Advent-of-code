@@ -82,7 +82,7 @@ def findGearRatios(matrix, posOfSpecialCaracter):
     return gearRatios
 
 # Main program
-matrix = fileToMatrix('./day3.txt')
+matrix = fileToMatrix('./input.txt')
 specialCaracters = findSpecialCaracter(matrix)
 posOfSpecialCaracter = findPosOfSpecialCaracter(matrix, specialCaracters)
 gearRatios = findGearRatios(matrix, posOfSpecialCaracter)

@@ -42,7 +42,7 @@ def parse_fichier_jeu_minimum_cubes(chemin_fichier):
     return minimum_cubes_par_jeu, somme_puissances # on retourne le dictionnaire et la somme
 
 # Exemple d'utilisation du script
-chemin_fichier = './day2.txt'
+chemin_fichier = './input.txt'
 
 # Appel de la fonction
 minimum_cubes_par_jeu, somme_puissances = parse_fichier_jeu_minimum_cubes(chemin_fichier)

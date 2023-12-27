@@ -64,8 +64,8 @@ def sortJeux(jeux):
 
 def main():
     result = 0
-    path = './day7.txt'
-    jeux = parse_fichier_jeu(path)
+    filepath = './input.txt'
+    jeux = parse_fichier_jeu(filepath)
     jeux = sortJeux(jeux)
     print(jeux)
     for i in range(len(jeux)):

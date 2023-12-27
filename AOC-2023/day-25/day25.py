@@ -1,5 +1,3 @@
-# github/hyper-neutrino
-
 import networkx as nx
 
 def generate_graph(filepath):
@@ -29,4 +27,5 @@ def generate_graph(filepath):
 
 # main
 filepath = "./day25.txt"
-print(generate_graph(filepath))
+if __name__ == "__main__":
+    print(generate_graph(filepath))

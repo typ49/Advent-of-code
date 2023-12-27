@@ -22,3 +22,8 @@ part_two_result_new = count_ways_to_win(part_two_time_new, part_two_record_new)
 
 # Résultat : le temps combiné, le record combiné et le nombre de façons de gagner
 part_two_time_new, part_two_record_new, part_two_result_new
+
+print("Partie 2 :")
+print(f"Temps combiné : {part_two_time_new}")
+print(f"Record combiné : {part_two_record_new}")
+print(f"Nombre de façons de gagner : {part_two_result_new}")

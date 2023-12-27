@@ -35,7 +35,7 @@ def parse_file(file_path):
 
     return seeds, maps
 
-# Rest of the code remains the same
+
 
 
 def process_seeds(seeds, maps):
@@ -47,8 +47,8 @@ def process_seeds(seeds, maps):
         location_numbers.append(number)
     return min(location_numbers)
 
-# Example usage
-file_path = './day5.txt'  # Replace with the actual file path
+# main
+file_path = './input.txt'
 seeds, maps = parse_file(file_path)
 lowest_location = process_seeds(seeds, maps)
 print(lowest_location)

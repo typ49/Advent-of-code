@@ -41,5 +41,5 @@ def day12_2(filepath):
 
 
 # main
-filepath = "./day12.txt"
+filepath = "./input.txt"
 print(day12_2(filepath))

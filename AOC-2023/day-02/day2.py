@@ -39,7 +39,7 @@ def parse_fichier_jeu(chemin_fichier, cubes_disponibles):
     return sum(jeux_possibles)
 
 # Exemple d'utilisation du script
-chemin_fichier = './day2.txt'  # Remplacer par le chemin du fichier réel
+chemin_fichier = './input.txt'  # Remplacer par le chemin du fichier réel
 cubes_disponibles = {"red": 12, "green": 13, "blue": 14}
 
 # Appel de la fonction

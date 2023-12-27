@@ -60,10 +60,12 @@ def day23(filepath):
 
     return parallel_longest_hike(matrix, start_pos, end_pos)
 
+# main
 sys.setrecursionlimit(10000)
-print(day23("./day23_test.txt"))
-print("début du test")
-start_time = time.time()
-print(day23("./day23.txt"))
-end_time = time.time()
-print(f"Temps d'exécution: {end_time - start_time} secondes")
+filepath = "./input.txt"
+if __name__ == '__main__':
+    print("début du test")
+    start_time = time.time()
+    print(day23(filepath))
+    end_time = time.time()
+    print(f"Temps d'exécution: {end_time - start_time} secondes")

@@ -35,5 +35,5 @@ def day17(filepath):
                     heappush(pq, (hl + grid[nr][nc], nr, nc, ndr, ndc, 1))
 
 # main
-filepath = "./day17.txt"
+filepath = "./input.txt"
 print(day17(filepath))

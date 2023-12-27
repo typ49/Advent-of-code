@@ -1,5 +1,3 @@
-#github/hyper-neutrino
-
 from collections import deque
 
 def day10(filepath):
@@ -97,5 +95,5 @@ def day10(filepath):
 
 
 # main
-filepath = "./day10.txt"
+filepath = "./input.txt"
 print(day10(filepath))

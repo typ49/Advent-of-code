@@ -1,18 +1,4 @@
-# github.com/hyper-neutrino
-
 from collections import deque
-
-grid = open(0).read().splitlines()
-
-sr, sc = next((r, c) for r, row in enumerate(grid) for c, ch in enumerate(row) if ch == "S")
-
-assert len(grid) == len(grid[0])
-
-size = len(grid)
-steps = 26501365
-
-assert sr == sc == size // 2
-assert steps % size == size // 2
 
 def fill(sr, sc, ss):
     ans = set()
@@ -34,34 +20,53 @@ def fill(sr, sc, ss):
             q.append((nr, nc, s - 1))
     
     return len(ans)
+def day21p2(filepath):
+    global grid
+    f = open(filepath, 'r')
+    grid = f.read().splitlines()
 
-grid_width = steps // size - 1
+    sr, sc = next((r, c) for r, row in enumerate(grid) for c, ch in enumerate(row) if ch == "S")
 
-odd = (grid_width // 2 * 2 + 1) ** 2
-even = ((grid_width + 1) // 2 * 2) ** 2
+    assert len(grid) == len(grid[0])
 
-odd_points = fill(sr, sc, size * 2 + 1)
-even_points = fill(sr, sc, size * 2)
+    size = len(grid)
+    steps = 26501365
 
-corner_t = fill(size - 1, sc, size - 1)
-corner_r = fill(sr, 0, size - 1)
-corner_b = fill(0, sc, size - 1)
-corner_l = fill(sr, size - 1, size - 1)
+    assert sr == sc == size // 2
+    assert steps % size == size // 2
 
-small_tr = fill(size - 1, 0, size // 2 - 1)
-small_tl = fill(size - 1, size - 1, size // 2 - 1)
-small_br = fill(0, 0, size // 2 - 1)
-small_bl = fill(0, size - 1, size // 2 - 1)
+    grid_width = steps // size - 1
 
-large_tr = fill(size - 1, 0, size * 3 // 2 - 1)
-large_tl = fill(size - 1, size - 1, size * 3 // 2 - 1)
-large_br = fill(0, 0, size * 3 // 2 - 1)
-large_bl = fill(0, size - 1, size * 3 // 2 - 1)
+    odd = (grid_width // 2 * 2 + 1) ** 2
+    even = ((grid_width + 1) // 2 * 2) ** 2
 
-print(
-    odd * odd_points +
-    even * even_points +
-    corner_t + corner_r + corner_b + corner_l +
-    (grid_width + 1) * (small_tr + small_tl + small_br + small_bl) +
-    grid_width * (large_tr + large_tl + large_br + large_bl)
-)
+    odd_points = fill(sr, sc, size * 2 + 1)
+    even_points = fill(sr, sc, size * 2)
+
+    corner_t = fill(size - 1, sc, size - 1)
+    corner_r = fill(sr, 0, size - 1)
+    corner_b = fill(0, sc, size - 1)
+    corner_l = fill(sr, size - 1, size - 1)
+
+    small_tr = fill(size - 1, 0, size // 2 - 1)
+    small_tl = fill(size - 1, size - 1, size // 2 - 1)
+    small_br = fill(0, 0, size // 2 - 1)
+    small_bl = fill(0, size - 1, size // 2 - 1)
+
+    large_tr = fill(size - 1, 0, size * 3 // 2 - 1)
+    large_tl = fill(size - 1, size - 1, size * 3 // 2 - 1)
+    large_br = fill(0, 0, size * 3 // 2 - 1)
+    large_bl = fill(0, size - 1, size * 3 // 2 - 1)
+
+    return (
+        odd * odd_points +
+        even * even_points +
+        corner_t + corner_r + corner_b + corner_l +
+        (grid_width + 1) * (small_tr + small_tl + small_br + small_bl) +
+        grid_width * (large_tr + large_tl + large_br + large_bl)
+    )
+
+# main
+filepath = "./input.txt"
+if __name__ == '__main__':
+    print(day21p2(filepath))

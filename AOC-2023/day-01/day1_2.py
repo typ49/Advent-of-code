@@ -42,5 +42,6 @@ def day1p2(filepath):
     return t
 
 # main
-filepath = "./day1.txt"
-print(day1p2(filepath))
+filepath = "./input.txt"
+if __name__ == '__main__':
+    print(day1p2(filepath))

@@ -43,8 +43,8 @@ def day23(filepath):
 
     return longest_hike(matrix, startPos, endPos, set([startPos]), 0)
 
-# Test
+# main
 sys.setrecursionlimit(10000)
-print(day23("./day23_test.txt"))
-
-print(day23("./day23.txt"))
+filepath = "./input.txt"
+if __name__ == '__main__':
+    print(day23(filepath))

@@ -76,7 +76,7 @@ def extractNumber(matrix, startPos, endPos):
     return int(''.join(matrix[line][startCaracter:endCaracter + 1]))
 
 # Main program
-file_path = './day3.txt'
+file_path = './input.txt'
 matrix = fileToMatrix(file_path)
 specialCaracters = findSpecialCaracter(matrix)
 posOfSpecialCaracter = findPosOfSpecialCaracter(matrix, specialCaracters)

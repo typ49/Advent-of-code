@@ -24,7 +24,7 @@ def parse_cards_with_extra_text(cards_data):
     return cards
 
 # Read the contents of the file
-file_path = './day4.txt'
+file_path = './input.txt'
 with open(file_path, 'r') as file:
     cards_data = file.readlines()
 
