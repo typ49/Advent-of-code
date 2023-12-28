@@ -1,5 +1,9 @@
 # Advent of code
 
+this is my code for advent of codes
+
+---
+
 ☆ : one star won
 
 ★ : two stars won
