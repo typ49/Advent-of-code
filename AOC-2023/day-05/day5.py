@@ -2,6 +2,13 @@ def map_number(number, map_list):
     """
     Map a number from the source to the destination using the provided map list.
     Each entry in the map list is a tuple of (destination start, source start, range length).
+
+    Args:
+        (int) number : the number to map
+        (list) map_list : a list of tuples containing the mapping information
+
+    Returns:
+        the mapped number
     """
     for dest_start, source_start, length in map_list:
         if source_start <= number < source_start + length:
@@ -12,6 +19,12 @@ def map_number(number, map_list):
 def parse_file(file_path):
     """
     Parse the file to extract seeds and maps.
+
+    Args:
+        (str) file_path : the path of the file
+
+    Returns:
+        a tuple of (seeds, maps)
     """
     with open(file_path, 'r') as file:
         lines = file.read().split('\n')
@@ -39,6 +52,16 @@ def parse_file(file_path):
 
 
 def process_seeds(seeds, maps):
+    """
+    Process the seeds and maps to find the lowest location number.
+
+    Args:
+        (list) seeds : a list of seeds
+        (list) maps : a list of maps
+
+    Returns:
+        the lowest location number
+    """
     location_numbers = []
     for seed in seeds:
         number = seed

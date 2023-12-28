@@ -1,4 +1,13 @@
 def calculate_total_scratchcards_efficient(cards):
+    """
+    Calculates the total number of scratchcards needed to win the grand prize
+
+    Args:
+        (list) cards: a list of cards
+
+    Returns:
+        the total number of scratchcards needed to win the grand prize
+    """
     total_cards = len(cards)
     card_copies = [1] * total_cards  # Start with one copy of each card
 
@@ -22,6 +31,15 @@ with open(file_path, 'r') as file:
     cards_data = file.readlines()
 
 def parse_cards_with_extra_text(cards_data):
+    """
+    Parses the cards data into a list of cards.
+
+    Args:
+        (list) cards_data: a list of strings containing the cards data
+
+    Returns:
+        a list of cards
+    """
     cards = []
     for line in cards_data:
         # Removing the "Card x:" part and then splitting the line

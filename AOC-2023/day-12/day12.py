@@ -1,5 +1,3 @@
-# github/hyper-neutrino
-
 def count(cfg, nums):
     if cfg == "":
         return 1 if nums == () else 0

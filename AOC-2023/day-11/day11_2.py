@@ -1,5 +1,3 @@
-# github/hyper-neutrino
-
 def day11_2(filepath):
     """
     Même problème que la partie 1, mais avec un univers beaucoup plus grand.

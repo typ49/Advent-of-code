@@ -1,5 +1,3 @@
-# github/hyper-neutrino
-
 def day11(filepath):
     """
     Déterminer la somme des longueurs des plus courts chemins entre chaque paire de galaxies dans une image de l'univers.

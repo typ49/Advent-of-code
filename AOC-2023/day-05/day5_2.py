@@ -1,4 +1,13 @@
 def day5p2(filepath):
+    """
+    Returns the lowest non-negative integer that is not in the list of ranges.
+
+    Args:
+        filepath (str) : path to the input file
+
+    Returns:
+        the lowest non-negative integer that is not in the list of ranges
+    """
     f = open(filepath, 'r')
     inputs, *blocks = f.read().split("\n\n")
 

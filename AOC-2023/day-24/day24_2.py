@@ -1,6 +1,4 @@
 import sympy
-
-# compilation : python3 day24_2.py < day24.in
 def day24(filepath):
     f = open(filepath, 'r')
     hailstones = [tuple(map(int, line.replace("@", ",").split(","))) for line in f]

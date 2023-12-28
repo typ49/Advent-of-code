@@ -26,6 +26,16 @@ def parse_fichier_jeu(chemin_fichier, cubes_disponibles):
                             jeux[id_jeu].append((couleur, int(nombre)))
 
     def jeu_possible(jeu):
+        """
+        Find all the possible game and return the sum of their ID
+        
+        Args:
+            (dictionary) jeu : a dictionary containing id and game
+            
+        Returns:
+            True if "nombre" if lower or equal than "cube_diponibles[couleur]"
+            False overwise
+        """
         # Vérifier si un jeu est possible avec les cubes disponibles
         for couleur, nombre in jeu:
             if nombre > cubes_disponibles[couleur]:

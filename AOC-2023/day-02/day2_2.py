@@ -25,6 +25,15 @@ def parse_fichier_jeu_minimum_cubes(chemin_fichier):
                             jeux[id_jeu].append((couleur, int(nombre))) # on ajoute le cube au tirage
 
     def calculer_minimum_et_puissance(jeu):
+        """
+        Find the minimum number of cube for colors and calculate the power of the game
+
+        Args:
+            (dictionary) jeu: a dictionary containing game and ID
+
+        Returns:
+            the minimum number of cube and the power
+        """
         min_cubes = {"red": 0, "green": 0, "blue": 0} # on initialise le minimum de cubes à 0 pour chaque couleur
         for couleur, nombre in jeu: # pour chaque cube dans le tirage
             min_cubes[couleur] = max(min_cubes[couleur], nombre) # on met à jour le minimum de cubes pour la couleur

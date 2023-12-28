@@ -1,6 +1,12 @@
 def fileToMatrix(file_path):
     """
     Reads a file and returns a matrix of the contents.
+
+    Args:
+        (str) file_path: the path of the file
+
+    Returns :
+        a matrix for the file
     """
     with open(file_path, 'r') as f:
         lines = f.readlines()
@@ -9,6 +15,12 @@ def fileToMatrix(file_path):
 def findSpecialCaracter(matrix):
     """
     Finds all characters that are not dot or number.
+
+    Args:
+        (tab 2D) matrix : a matrix
+
+    Returns:
+        a list of specialCaracter
     """
     specialCaracter = []
     for line in matrix:
@@ -20,6 +32,13 @@ def findSpecialCaracter(matrix):
 def findPosOfSpecialCaracter(matrix, specialCaracters):
     """
     Finds all the positions of the special characters in a matrix.
+
+    Args:
+        (tab 2D) matrix : a matrix
+        (list) specialCaracter : a list of specialCaracter
+
+    Returns:
+        the position of the special char in the matrix
     """
     posOfSpecialCaracter = {}
     for specialCaracter in specialCaracters:
@@ -33,6 +52,14 @@ def findPosOfSpecialCaracter(matrix, specialCaracters):
 def findNumberPosition(matrix, line, caracter):
     """
     Finds the start and end positions of a complete number starting from a digit at a given position.
+
+    Args:
+        (tab 2D) matrix : a matrix
+        (int) line : the line of the digit
+        (int) caracter : the caracter of the digit
+
+    Returns:
+        the start and end positions of the number
     """
     startCaracter = caracter
     endCaracter = caracter
@@ -50,6 +77,14 @@ def findNumberPosition(matrix, line, caracter):
 def extractNumber(matrix, startPos, endPos):
     """
     Extracts a number from the matrix given its start and end positions.
+
+    Args:
+        (tab 2D) matrix : a matrix
+        (tuple) startPos : the start position of the number
+        (tuple) endPos : the end position of the number
+
+    Returns:
+        the number
     """
     line, startCaracter = startPos
     _, endCaracter = endPos
@@ -59,6 +94,13 @@ def findGearRatios(matrix, posOfSpecialCaracter):
     """
     Finds the gear ratios for each gear. A gear is defined as a special symbol adjacent to exactly two part numbers.
     The gear ratio is the product of these two numbers.
+
+    Args:
+        (tab 2D) matrix : a matrix
+        (dict) posOfSpecialCaracter : the position of the special char in the matrix
+
+    Returns:
+        a list of gear ratios
     """
     gearRatios = []
 

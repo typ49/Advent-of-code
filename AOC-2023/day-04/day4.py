@@ -1,4 +1,13 @@
 def calculate_scratchcard_points(cards):
+    """
+    Calculates the total points for a list of scratchcards
+
+    Args:
+        (list) cards : a list of scratchcards
+
+    Returns:
+        the total points
+    """
     total_points = 0
 
     for card in cards:
@@ -15,6 +24,15 @@ def calculate_scratchcard_points(cards):
     return total_points
 
 def parse_cards_with_extra_text(cards_data):
+    """
+    Parses the cards data with the extra text
+
+    Args:
+        (list) cards_data : a list of cards data
+
+    Returns:
+        a list of cards
+    """
     cards = []
     for line in cards_data:
         # Removing the "Card x:" part and then splitting the line
