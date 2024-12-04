@@ -12,6 +12,8 @@
 
 ## python librairy used
 
+- [re](https://docs.python.org/fr/3/library/re.html) : (day03)
+
 ---
 
 ## stars
@@ -22,7 +24,7 @@
 
 |1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|★|★||||||||||||||||||||||||
+|★|★|★|★||||||||||||||||||||||
 
 ---
 
@@ -50,5 +52,17 @@
 >
 > - [Partie 1](./day-02/day02.py)
 > - [Partie 2](./day-02/day02_2.py)
+>
+<!---->
+> [➤ **--- Day 3: Mull It Over ---**](https://adventofcode.com/2024/day/3)
+>
+> - [Partie 1](./day-03/day03.py)
+> - [Partie 2](./day-03/day03_2.py)
+>
+<!---->
+> [➤ **--- Day 4: Ceres Search ---**](https://adventofcode.com/2024/day/4)
+>
+> - [Partie 1](./day-04/day04.py)
+> - [Partie 2](./day-04/day04_2.py)
 >
 <!---->
