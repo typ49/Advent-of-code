@@ -34,13 +34,15 @@
 
 ## execution
 
+in `Advent-of-code` reposetory
+
 ### For part one
 
-- `$ python3 dayXX.py`
+- `$ python3 AOC-2024/day-XX/dayXX.py`
 
 ### For part two
 
-- `$ python3 dayXX_2.py`
+- `$ python3 AOC-2024/day-XX/dayXX_2.py`
 
 ---
 
