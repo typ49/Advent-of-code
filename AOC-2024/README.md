@@ -28,7 +28,7 @@
 
 |1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|★|★|★|★|★|★|||★|||||||||||||★||||
+|★|★|★|★|★|★|★|★|★|||||||||||||★||||
 
 ---
 
@@ -84,15 +84,116 @@ in `Advent-of-code` reposetory
 > - [Partie 2](./day-06/day06_2.py)
 >
 <!---->
+> [➤ **--- Day 7: Bridge Repair ---**](https://adventofcode.com/2024/day/7)
+>
+> - [Partie 1](./day-07/day07.py)
+> - [Partie 2](./day-07/day07_2.py)
+>
+<!---->
+> [➤ **--- Day 8: Resonant Collinearity ---**](https://adventofcode.com/2024/day/8)
+>
+> - [Partie 1](./day-08/day08.py)
+> - [Partie 2](./day-08/day08_2.py)
+>
+<!---->
 > [➤ **--- Day 9: Disk Fragmenter ---**](https://adventofcode.com/2024/day/9)
 >
 > - [Partie 1](./day-09/day09.py)
 > - [Partie 2](./day-09/day09_2.py)
 >
 <!---->
+> [➤ ****](https://adventofcode.com/2024/day/10)
+>
+> - [Partie 1](./day-10/day10.py)
+> - [Partie 2](./day-10/day10_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/11)
+>
+> - [Partie 1](./day-11/day11.py)
+> - [Partie 2](./day-11/day11_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/12)
+>
+> - [Partie 1](./day-12/day12.py)
+> - [Partie 2](./day-12/day12_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/13)
+>
+> - [Partie 1](./day-13/day13.py)
+> - [Partie 2](./day-13/day13_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/14)
+>
+> - [Partie 1](./day-14/day14.py)
+> - [Partie 2](./day-14/day14_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/15)
+>
+> - [Partie 1](./day-15/day15.py)
+> - [Partie 2](./day-15/day15_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/16)
+>
+> - [Partie 1](./day-16/day16.py)
+> - [Partie 2](./day-16/day16_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/17)
+>
+> - [Partie 1](./day-17/day18.py)
+> - [Partie 2](./day-17/day18_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/18)
+>
+> - [Partie 1](./day-18/day18.py)
+> - [Partie 2](./day-18/day18_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/19)
+>
+> - [Partie 1](./day-19/day19.py)
+> - [Partie 2](./day-19/day19_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/20)
+>
+> - [Partie 1](./day-20/day20.py)
+> - [Partie 2](./day-20/day20_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/21)
+>
+> - [Partie 1](./day-21/day21.py)
+> - [Partie 2](./day-21/day21_2.py)
+>
+<!---->
 > [➤ **--- Day 22: Monkey Market ---**](https://adventofcode.com/2024/day/22)
 >
 > - [Partie 1](./day-22/day22.py)
 > - [Partie 2](./day-22/day22_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/23)
+>
+> - [Partie 1](./day-23/day23.py)
+> - [Partie 2](./day-23/day23_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/24)
+>
+> - [Partie 1](./day-24/day24.py)
+> - [Partie 2](./day-24/day24_2.py)
+>
+<!---->
+> [➤ ****](https://adventofcode.com/2024/day/25)
+>
+> - [Partie 1](./day-25/day25.py)
 >
 <!---->
