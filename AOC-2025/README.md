@@ -22,7 +22,7 @@
 
 |1|2|3|4|5|6|7|8|9|10|11|12|
 |---|---|---|---|---|---|---|---|---|---|---|---|
-|★|★|||||||||||
+|★|★|★||||||||||
 
 ---
 
@@ -54,7 +54,7 @@ in `Advent-of-code` reposetory
 > - [Partie 2](./day-02/day02_2.py)
 >
 <!---->
-> [➤ ****](https://adventofcode.com/2025/day/3)
+> [➤ **--- Day 3: Lobby ---**](https://adventofcode.com/2025/day/3)
 >
 > - [Partie 1](./day-03/day03.py)
 > - [Partie 2](./day-03/day03_2.py)
