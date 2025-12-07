@@ -12,6 +12,10 @@
 
 ## python librairy used
 
+**day07 :**
+- functools -> cache
+- collections -> deque
+
 ---
 
 ## stars
@@ -22,7 +26,7 @@
 
 |1|2|3|4|5|6|7|8|9|10|11|12|
 |---|---|---|---|---|---|---|---|---|---|---|---|
-|★|★|★||||||||||
+|★|★|★|★|★|★|★||||||
 
 ---
 
@@ -60,25 +64,25 @@ in `Advent-of-code` reposetory
 > - [Partie 2](./day-03/day03_2.py)
 >
 <!---->
-> [➤ ****](https://adventofcode.com/2025/day/4)
+> [➤ **--- Day 4: Printing Department ---**](https://adventofcode.com/2025/day/4)
 >
 > - [Partie 1](./day-04/day04.py)
 > - [Partie 2](./day-04/day04_2.py)
 >
 <!---->
-> [➤ ****](https://adventofcode.com/2025/day/4)
+> [➤ **--- Day 5: Cafeteria ---**](https://adventofcode.com/2025/day/4)
 >
 > - [Partie 1](./day-05/day05.py)
 > - [Partie 2](./day-05/day05_2.py)
 >
 <!---->
-> [➤ ****](https://adventofcode.com/2025/day/6)
+> [➤ **--- Day 6: Trash Compactor ---**](https://adventofcode.com/2025/day/6)
 >
 > - [Partie 1](./day-06/day06.py)
 > - [Partie 2](./day-06/day06_2.py)
 >
 <!---->
-> [➤ ****](https://adventofcode.com/2025/day/7)
+> [➤ **--- Day 7: Laboratories ---**](https://adventofcode.com/2025/day/7)
 >
 > - [Partie 1](./day-07/day07.py)
 > - [Partie 2](./day-07/day07_2.py)
