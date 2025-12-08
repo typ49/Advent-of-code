@@ -26,7 +26,7 @@
 
 |1|2|3|4|5|6|7|8|9|10|11|12|
 |---|---|---|---|---|---|---|---|---|---|---|---|
-|★|★|★|★|★|★|★||||||
+|★|★|★|★|★|★|★|★|||||
 
 ---
 
@@ -88,7 +88,7 @@ in `Advent-of-code` reposetory
 > - [Partie 2](./day-07/day07_2.py)
 >
 <!---->
-> [➤ ****](https://adventofcode.com/2025/day/8)
+> [➤ **--- Day 8: Playground ---**](https://adventofcode.com/2025/day/8)
 >
 > - [Partie 1](./day-08/day08.py)
 > - [Partie 2](./day-08/day08_2.py)
