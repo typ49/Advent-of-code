@@ -26,7 +26,7 @@
 
 |1|2|3|4|5|6|7|8|9|10|11|12|
 |---|---|---|---|---|---|---|---|---|---|---|---|
-|★|★|★|★|★|★|★|★|||||
+|★|★|★|★|★|★|★|★|☆||★||
 
 ---
 
@@ -94,7 +94,7 @@ in `Advent-of-code` reposetory
 > - [Partie 2](./day-08/day08_2.py)
 >
 <!---->
-> [➤ ****](https://adventofcode.com/2025/day/9)
+> [➤ **--- Day 9: Movie Theater ---**](https://adventofcode.com/2025/day/9)
 >
 > - [Partie 1](./day-09/day09.py)
 > - [Partie 2](./day-09/day09_2.py)
@@ -106,7 +106,7 @@ in `Advent-of-code` reposetory
 > - [Partie 2](./day-10/day10_2.py)
 >
 <!---->
-> [➤ ****](https://adventofcode.com/2025/day/11)
+> [➤ **--- Day 11: Reactor ---**](https://adventofcode.com/2025/day/11)
 >
 > - [Partie 1](./day-11/day11.py)
 > - [Partie 2](./day-11/day11_2.py)
