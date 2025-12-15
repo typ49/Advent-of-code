@@ -31,3 +31,8 @@ this is my code for advent of codes
 |1|2|3|4|5|6|7|8|9|10|11|12|
 |---|---|---|---|---|---|---|---|---|---|---|---|
 |★|★|★|★|★|★|★|★|★|★|★|★|
+
+
+<!-- AOC TILES BEGIN -->
+![AoC 2025](https://img.shields.io/badge/AoC_2025-⭐_XX-yellow)
+<!-- AOC TILES END -->
