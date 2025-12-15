@@ -12,9 +12,26 @@
 
 ## python librairy used
 
-**day07 :**
-- functools -> cache
-- collections -> deque
+> **day07 :**
+> - functools -> cache
+> - collections -> deque
+
+> **day08 :**
+> - collections -> defaultdict
+
+> **day09 :**
+> - collections -> deque
+
+>**day10 :**
+>- re -> *
+>- itertools -> *
+>- z3-solver -> *
+
+>**day11 :**
+>- functools -> cache
+
+>**day12 :**
+>- re -> *
 
 ---
 
@@ -26,7 +43,7 @@
 
 |1|2|3|4|5|6|7|8|9|10|11|12|
 |---|---|---|---|---|---|---|---|---|---|---|---|
-|★|★|★|★|★|★|★|★|☆||★||
+|★|★|★|★|★|★|★|★|★|★|★|★|
 
 ---
 
@@ -100,7 +117,7 @@ in `Advent-of-code` reposetory
 > - [Partie 2](./day-09/day09_2.py)
 >
 <!---->
-> [➤ ****](https://adventofcode.com/2025/day/10)
+> [➤ **--- Day 10: Factory ---**](https://adventofcode.com/2025/day/10)
 >
 > - [Partie 1](./day-10/day10.py)
 > - [Partie 2](./day-10/day10_2.py)
@@ -112,7 +129,7 @@ in `Advent-of-code` reposetory
 > - [Partie 2](./day-11/day11_2.py)
 >
 <!---->
-> [➤ ****](https://adventofcode.com/2025/day/12)
+> [➤ **--- Day 12: Christmas Tree Farm ---**](https://adventofcode.com/2025/day/12)
 >
 > - [Partie 1](./day-12/day12.py)
 > - [Partie 2](./day-12/day12_2.py)
