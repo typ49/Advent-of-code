@@ -34,5 +34,7 @@ this is my code for advent of codes
 
 
 <!-- AOC TILES BEGIN -->
-![AoC 2025](https://img.shields.io/badge/AoC_2025-⭐_XX-yellow)
+![AoC 2025](https://img.shields.io/badge/AoC_2025-⭐_24*-yellow)
+![AoC Badge](https://votre-worker.workers.dev/?user_id=53616c7465645f5fdcf7b4ffa3bca29571719eb981cda2019556e55de332d55d6037b33d3a1f9ad173e2fc40721595bd56192f737a60f1f9682cbe143d30df87&year=2025)
+
 <!-- AOC TILES END -->
