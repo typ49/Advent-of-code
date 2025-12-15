@@ -10,7 +10,8 @@ this is my code for advent of codes
 
 ---
 
-## [2023](./AOC-2023)
+## [2023](./AOC-2023)![AoC 2023](https://img.shields.io/badge/AoC_2023-⭐_50*-yellow)
+
 
 |1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -18,7 +19,8 @@ this is my code for advent of codes
 
 ---
 
-## [2024](./AOC-2024)
+## [2024](./AOC-2024)![AoC 2024](https://img.shields.io/badge/AoC_2024-⭐_10-yellow)
+
 
 |1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -26,7 +28,8 @@ this is my code for advent of codes
 
 ---
 
-## [2025](./AOC-2025)
+## [2025](./AOC-2025)![AoC 2025](https://img.shields.io/badge/AoC_2025-⭐_24*-yellow)
+
 
 |1|2|3|4|5|6|7|8|9|10|11|12|
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -34,7 +37,4 @@ this is my code for advent of codes
 
 
 <!-- AOC TILES BEGIN -->
-![AoC 2025](https://img.shields.io/badge/AoC_2025-⭐_24*-yellow)
-![AoC Badge](https://votre-worker.workers.dev/?user_id=53616c7465645f5fdcf7b4ffa3bca29571719eb981cda2019556e55de332d55d6037b33d3a1f9ad173e2fc40721595bd56192f737a60f1f9682cbe143d30df87&year=2025)
-
 <!-- AOC TILES END -->
